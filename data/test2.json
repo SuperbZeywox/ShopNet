@@ -1,0 +1,332 @@
+{
+  "total_shops": 12,
+  "total_products": 10,
+  "shops": [
+    {
+      "id": 1,
+      "name": "shop_1",
+      "address": "address_1",
+      "products": [
+        1,
+        2
+      ],
+      "workingDays": [
+        "Thursday"
+      ],
+      "neighbors": [
+        {
+          "shop_id": 2,
+          "road_cost": 5
+        }
+      ],
+      "rating": 2.2
+    },
+    {
+      "id": 2,
+      "name": "shop_2",
+      "address": "address_2",
+      "products": [
+        2,
+        3,
+        4
+      ],
+      "workingDays": [
+        "Monday",
+        "Wednesday",
+        "Saturday"
+      ],
+      "neighbors": [
+        {
+          "shop_id": 1,
+          "road_cost": 5
+        },
+        {
+          "shop_id": 3,
+          "road_cost": 6
+        },
+        {
+          "shop_id": 5,
+          "road_cost": 4
+        },
+        {
+          "shop_id": 6,
+          "road_cost": 3
+        }
+      ],
+      "rating": 5.0
+    },
+    {
+      "id": 3,
+      "name": "shop_3",
+      "address": "address_3",
+      "products": [
+        5
+      ],
+      "workingDays": [
+        "Tuesday",
+        "Wednesday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "neighbors": [
+        {
+          "shop_id": 2,
+          "road_cost": 6
+        },
+        {
+          "shop_id": 4,
+          "road_cost": 7
+        }
+      ],
+      "rating": 4.4
+    },
+    {
+      "id": 4,
+      "name": "shop_4",
+      "address": "address_4",
+      "products": [
+        1,
+        5,
+        6
+      ],
+      "workingDays": [
+        "Monday",
+        "Thursday"
+      ],
+      "neighbors": [
+        {
+          "shop_id": 3,
+          "road_cost": 7
+        },
+        {
+          "shop_id": 8,
+          "road_cost": 10
+        }
+      ],
+      "rating": 2.8
+    },
+    {
+      "id": 5,
+      "name": "shop_5",
+      "address": "address_5",
+      "products": [
+        3,
+        7
+      ],
+      "workingDays": [
+        "Tuesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "neighbors": [
+        {
+          "shop_id": 2,
+          "road_cost": 4
+        },
+        {
+          "shop_id": 6,
+          "road_cost": 8
+        },
+        {
+          "shop_id": 7,
+          "road_cost": 6
+        }
+      ],
+      "rating": 2.6
+    },
+    {
+      "id": 6,
+      "name": "shop_6",
+      "address": "address_6",
+      "products": [
+        2,
+        8
+      ],
+      "workingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "neighbors": [
+        {
+          "shop_id": 2,
+          "road_cost": 3
+        },
+        {
+          "shop_id": 5,
+          "road_cost": 8
+        },
+        {
+          "shop_id": 7,
+          "road_cost": 5
+        }
+      ],
+      "rating": 4.1
+    },
+    {
+      "id": 7,
+      "name": "shop_7",
+      "address": "address_7",
+      "products": [
+        6,
+        9,
+        10
+      ],
+      "workingDays": [
+        "Monday",
+        "Thursday",
+        "Friday"
+      ],
+      "neighbors": [
+        {
+          "shop_id": 6,
+          "road_cost": 5
+        },
+        {
+          "shop_id": 5,
+          "road_cost": 6
+        },
+        {
+          "shop_id": 8,
+          "road_cost": 10
+        }
+      ],
+      "rating": 3.2
+    },
+    {
+      "id": 8,
+      "name": "shop_8",
+      "address": "address_8",
+      "products": [
+        4,
+        7
+      ],
+      "workingDays": [
+        "Wednesday",
+        "Friday"
+      ],
+      "neighbors": [
+        {
+          "shop_id": 4,
+          "road_cost": 10
+        },
+        {
+          "shop_id": 9,
+          "road_cost": 11
+        },
+        {
+          "shop_id": 7,
+          "road_cost": 10
+        }
+      ],
+      "rating": 3.7
+    },
+    {
+      "id": 9,
+      "name": "shop_9",
+      "address": "address_9",
+      "products": [
+        1,
+        8
+      ],
+      "workingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Sunday"
+      ],
+      "neighbors": [
+        {
+          "shop_id": 8,
+          "road_cost": 11
+        },
+        {
+          "shop_id": 10,
+          "road_cost": 9
+        }
+      ],
+      "rating": 3.5
+    },
+    {
+      "id": 10,
+      "name": "shop_10",
+      "address": "address_10",
+      "products": [
+        9
+      ],
+      "workingDays": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "neighbors": [
+        {
+          "shop_id": 9,
+          "road_cost": 9
+        },
+        {
+          "shop_id": 11,
+          "road_cost": 12
+        }
+      ],
+      "rating": 4.3
+    },
+    {
+      "id": 11,
+      "name": "shop_11",
+      "address": "address_11",
+      "products": [
+        5,
+        10
+      ],
+      "workingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Sunday"
+      ],
+      "neighbors": [
+        {
+          "shop_id": 10,
+          "road_cost": 12
+        },
+        {
+          "shop_id": 12,
+          "road_cost": 13
+        }
+      ],
+      "rating": 4.0
+    },
+    {
+      "id": 12,
+      "name": "shop_12",
+      "address": "address_12",
+      "products": [
+        2,
+        6,
+        10
+      ],
+      "workingDays": [
+        "Monday"
+      ],
+      "neighbors": [
+        {
+          "shop_id": 11,
+          "road_cost": 13
+        }
+      ],
+      "rating": 2.7
+    }
+  ],
+  "shopNetId": "43b836f12ab5e6c24188658a1720c5e1766188b60dfea3e319bb32c114873c1a"
+}
