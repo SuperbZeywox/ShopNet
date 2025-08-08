@@ -20,6 +20,17 @@ Each path is described as a collection of roads taken by each agent, example: ag
 - I made the constraints in that range so that you tingle a specific type of optimization that is useful on that range, in addition I wanted you to start visualizing the limitations of each optimization and each algorithm.
 - Example: if we increase the range slightly, then we change the bitmask, but if we change a lot, we make a significant change to the algorithm.
 
+## Algorithm Overview
+
+- **Graph model:** Bidirectional weighted graph with up to 5,000 nodes and 10 products.
+- **State space:** `(node, productMask)` where `productMask` is a bitmask of collected products.
+- **Algorithm:** Modified Dijkstra’s shortest path to compute minimal time for each state.
+- **Path reconstruction:** Backtracks via parent node/mask arrays to produce each agent's route.
+- **Meeting point optimization:** Brute force over ≤ 1,024 possible masks to find two disjoint product sets with minimal maximum arrival time.  
+  This is the **fastest exact method** for the given constraints (`total_products ≤ 10`), as the full pairwise scan runs in well under a second and no alternative approach would improve runtime.
+- **Time complexity:** O(E * 2^P log(V * 2^P)) for Dijkstra, plus O(4^P) mask pairing (fast for P ≤ 10).
+- **Space complexity:** O(V * 2^P) distance table.
+
 ## Query format:
 
 ```text
