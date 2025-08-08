@@ -15,7 +15,8 @@ Each path is described as a collection of roads taken by each agent, example: ag
 - I made shop identification numbers and product identification numbers simple, so that you focus more on the algorithm, rather than the pre-processing
 
 ## Constraints:
-
+- 2 ≤ total_shops ≤ 5000  
+- 1 ≤ total_products ≤ 10
 - I made the constraints in that range so that you tingle a specific type of optimization that is useful on that range, in addition I wanted you to start visualizing the limitations of each optimization and each algorithm.
 - Example: if we increase the range slightly, then we change the bitmask, but if we change a lot, we make a significant change to the algorithm.
 
